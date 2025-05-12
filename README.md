@@ -1,35 +1,35 @@
-# Diabetes Prediction with Explainable ML
+**Towards Reliable and Transparent Diabetes Diagnosis with an Explainable Ensemble Framework for Clinical Decision Support**
 
 Notebook-based implementation of diabetes prediction with model explainability.
 
 ## Notebook Pipeline
 
-1. `1_Data_Preprocessing.ipynb`  
+1. Data_Preprocessing 
    - Data cleaning and feature engineering
    - Handling class imbalance with SMOTE
    - Train-test-validation split
 
-2. `2_Model_Training.ipynb`  
+2. Model_Training  
    - XGBoost, Random Forest, LightGBM training
    - Hyperparameter tuning
    - Ensemble model creation
 
-3. `3_Model_Evaluation.ipynb`  
+3. Model_Evaluation 
    - Performance metrics calculation
    - ROC curves and confusion matrices
    - Feature importance analysis
 
-4. `4_SHAP_Explanations.ipynb`  
+4. SHAP_Explanations  
    - Global SHAP feature importance
    - Local SHAP force plots
    - Dependence plots
 
-5. `5_LIME_Explanations.ipynb`  
+5. LIME_Explanations  
    - Local interpretable explanations
    - Feature contribution analysis
    - Multi-instance comparison
 
-6. `6_Counterfactuals_Anchors.ipynb`  
+6. `6_Counterfactuals_Anchors  
    - DiCE counterfactual explanations
    - Anchor rule generation
    - What-if analysis
